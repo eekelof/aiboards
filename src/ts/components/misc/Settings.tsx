@@ -14,7 +14,7 @@ export function Settings() {
         <div class="themeToggle" onclick={() => toggleTheme()}>
             {SmallIcon(mdiThemeLightDark, "themeToggleIcon")}
         </div>
-        <a href="https://github.com/eekelof/vikk-todo" target="blank" class="githubLink">
+        <a href="https://github.com/eekelof/aiboards" target="blank" class="githubLink">
             {SmallIcon(mdiGithub, "githubLinkIcon")}
         </a>
     </div>;
