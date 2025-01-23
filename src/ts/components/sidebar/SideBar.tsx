@@ -15,7 +15,7 @@ export function SideBar(app: App_I) {
         <div class="sidebarTitle">
             <div class="hideToggle" onclick={clickedHide}> {Icon(mdiChevronLeft)} </div>
             {Icon(mdiBulletinBoard)}
-            <div class="sidebarTitleText">Vikk Todo</div>
+            <div class="sidebarTitleText">aiboards</div>
         </div>
         {BoardCreator(app)}
     </div>;
