@@ -5,6 +5,7 @@
 @import "misc/confirm_box.css";
 @import "sidebar/sidebar.css";
 @import "board/board.css";
+@import "ai/ai_box.css";
 
 :root {
     --transitionTime: 0.2s;

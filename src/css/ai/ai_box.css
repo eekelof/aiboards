@@ -1,0 +1,33 @@
+#aiBox {
+    position: absolute;
+    right: 8px;
+    bottom: 24px;
+    width: 200px;
+    height: 96px;
+    overflow: hidden;
+    background: var(--listBg);
+    border-radius: var(--borderRadius);
+    padding-bottom: 4px;
+    border: var(--border);
+    backdrop-filter: blur(10px);
+    opacity: 0.5;
+    transition: var(--transitionTime);
+}
+
+#aiBox:hover {
+    width: 384px;
+    opacity: 1;
+}
+
+#aiBoxTitle {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--titleFont);
+    color: var(--fontColor);
+    padding: 16px;
+}
+
+.aiInput {
+    position: absolute;
+    bottom: 8px;
+}
