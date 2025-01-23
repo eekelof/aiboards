@@ -2,7 +2,7 @@
 Todo app with ai features
 
 ## Demo :gem:
-[localboards.ggez.se](https://aiboards.ggez.se)
+[aiboards.ggez.se](https://aiboards.ggez.se)
 
 ## Features :clipboard:
 - Stores all data in localstorage
