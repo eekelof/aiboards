@@ -3,7 +3,7 @@
     right: 8px;
     bottom: 24px;
     width: 200px;
-    height: 96px;
+    height: 88px;
     overflow: hidden;
     background: var(--listBg);
     border-radius: var(--borderRadius);
@@ -24,7 +24,7 @@
     font-weight: bold;
     font-family: var(--titleFont);
     color: var(--fontColor);
-    padding: 16px;
+    padding: 8px;
 }
 
 .aiInput {
