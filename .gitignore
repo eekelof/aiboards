@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 rsync.sh
+.env

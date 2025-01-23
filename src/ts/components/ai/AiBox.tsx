@@ -1,4 +1,5 @@
 import { App_I } from '../../App';
+import AiHelper from './AiHelper';
 
 export interface Ai_I {
     id: string;
@@ -15,13 +16,13 @@ export function AiBox(app: App_I) {
     aiInput.onkeydown = (e: KeyboardEvent) => {
         if (e.key != "Enter" || aiInput.value.length === 0)
             return;
-        // send aiInput.value to ai
+        AiHelper.handle(aiInput.value);
         aiInput.value = "";
     };
 
     return <div id="aiBox">
         <div id="aiBoxTitle">✨Assistant</div>
         {aiInput}
-        {/* select model */}
+        {/* select model from dropdown */}
     </div>;
 }

@@ -10,7 +10,10 @@
         "vite": "^5.4.8"
     },
     "dependencies": {
+        "@ai-sdk/anthropic": "^1.1.2",
+        "@ai-sdk/openai": "^1.1.2",
         "@mdi/js": "^7.4.47",
+        "ai": "^4.1.2",
         "vikk": "^1.1.0"
     }
 }
